@@ -1,0 +1,32 @@
+{
+  "name": "slate-tailwind-starter",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Shopify Inc., Tracy Adams",
+  "description": "A barebones, Slate compatible, starting point for developing Shopify themes with Tailwindcss.",
+  "keywords": [
+    "shopify",
+    "theme",
+    "tailwind",
+    "tailwindcss"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tracy-codes/shopify-slate-tailwind-starter"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "2.3.0",
+    "@shopify/slate-tools": "1.0.0-beta.19",
+    "babel-preset-env": "^1.7.0",
+    "tailwindcss": "1.5.1"
+  },
+  "scripts": {
+    "start": "slate-tools start",
+    "watch": "slate-tools start --skipFirstDeploy",
+    "build": "slate-tools build",
+    "deploy": "slate-tools build && slate-tools deploy",
+    "zip": "slate-tools build && slate-tools zip"
+  },
+  "dependencies": {}
+}
